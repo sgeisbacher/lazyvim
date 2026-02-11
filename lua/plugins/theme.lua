@@ -2,7 +2,7 @@ return {
   { "tahayvr/matteblack.nvim", lazy = false, priority = 1000 },
   { "morhetz/gruvbox", lazy = false, priority = 1000 },
   {
-    "sainnhe/sonokai",
+    "sgeisbacher/sonokai",
     lazy = false,
     priority = 1000,
     init = function()
