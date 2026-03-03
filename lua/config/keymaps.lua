@@ -15,6 +15,7 @@ end
 
 keymap("n", "ge", diagnostic_goto(true, "ERROR"), { desc = "Next Error" })
 keymap("n", "<leader>ff", "<cmd>lua require('fzf-lua').grep({ search = '' })<CR>", { desc = "grep with filenames" })
+keymap("n", "<leader>fp", "<cmd>lua require('fzf-lua').resume()<CR>", { desc = "resume previous fzf-lua-search" })
 keymap("n", "<m-o>", "<cmd>lua require('fzf-lua').files()<CR>", { desc = "open files fuzzy" })
 
 -- split planes
