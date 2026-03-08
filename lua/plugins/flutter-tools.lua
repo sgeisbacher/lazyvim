@@ -4,7 +4,7 @@ return {
   opts = {
     fvm = true,
     dev_log = {
-      open_cmd = "tabedit",
+      open_cmd = "split",
     },
     lsp = {
       -- on_attach = require("user.lsp.handlers").on_attach,
